@@ -7,6 +7,11 @@ def search(list, target):
     """
 
     # Your code goes here!!
+    for index in range(len(list)):
+        if list[index]==target:
+            return index
+    return -1
+
 
 
 print(search(['John','Paul','George','Ringo'], 'George'))
